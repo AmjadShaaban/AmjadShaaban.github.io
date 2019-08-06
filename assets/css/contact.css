@@ -11,6 +11,7 @@
   width: 95%;
   height: 16em;
   border: 0.01em solid #dddddd;
+  background-image: url("../images/email-pattern.png");
 }
 input[type="submit"],
 input[type="reset"] {
