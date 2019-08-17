@@ -4,140 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" /> -->
-
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrapped</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="inner">
-          <div class="header-box">
-            <div class="right">
-              <a href="./index.html" title="About Me!">About</a>
-              &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-              <a href="./portfolio.html" title="Portfolio!">Portfolio</a>
-              &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-              <a href="./contact.html" title="Contact!">Contact</a>
-            </div>
-            <div class="left heading-font">Amjad Shaaban</div>
-          </div>
-        </div>
-      </header>
-      <div class="content">
-        <div class="inner">
-          <div class="scrollable">
-            <div class="content-box">
-              <div class="content-title heading-font">Portfolio</div>
-              <!-- <hr style="border: none;" /> -->
-              <hr />
-              <div class="about-me">
-                <div class="portfolio">
-                  <div>
-                    <div class="snapshot-banner heading-font">Project One</div>
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH1.jpg"
-                    />
-                  </div>
-                  <div>
-                    <div class="snapshot-banner heading-font">Project Two</div>
+    <nav
+      class="navbar navbar-expand navbar-dark bg-dark fixed-top justify-content-center justify-content-sm-start flex-wrap"
+    >
+      <div class="navbar-brand mx-auto">
+        Amjad Shaaban
+      </div>
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link" href="./index.html">About</a>
+        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </div>
+    </nav>
 
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH2.jpg"
-                    />
-                  </div>
-                  <div>
-                    <div class="snapshot-banner heading-font">
-                      Project Three
-                    </div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH3.jpg"
-                    />
-                  </div>
-
-                  <div>
-                    <div class="snapshot-banner heading-font">Project Four</div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH4.gif"
-                    />
-                  </div>
-                  <div>
-                    <div class="snapshot-banner heading-font">Project Five</div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/profilepic.jpg"
-                    />
-                  </div>
-                  <div>
-                    <div class="snapshot-banner heading-font">Project Six</div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH5.png"
-                    />
-                  </div>
-
-                  <div>
-                    <div class="snapshot-banner heading-font">Project X</div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH5.jpg"
-                    />
-                  </div>
-                  <div>
-                    <div class="snapshot-banner heading-font">Project Y</div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH7.jpg"
-                    />
-                  </div>
-                  <div>
-                    <div class="snapshot-banner heading-font">Project Z</div>
-
-                    <img
-                      class="snapshot"
-                      height="160px"
-                      width="240px"
-                      src="./assets/images/PH8.jpg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="container">
+      <div class="card mx-auto" style="max-width: 960px;">
+        <div class="card-body">
+          <h4 class="card-title">Portfolio</h4>
+          <hr />
+          <p class="card-text">
+                <ul class="list-unstyled">
+                        <li class="media">
+                          <img src="./assets/images/bootstrap.png" class="mr-3" alt="...">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">Bootstrap Basic Portfolio</h5>
+                            Basic-portfolio layout using Bootstrap CSS
+                          </div>
+                        </li>
+                        <li class="media my-4">
+                          <img src="./assets/images/responsive.jpg" class="mr-3" alt="...">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">Responsive Basic Portfolio</h5>
+                            Basic-portfolio layout using @media quarries
+                          </div>
+                        </li>
+                        <li class="media">
+                          <img src="./assets/images/basic.png" class="mr-3" alt="...">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">Basic Portfolio</h5>
+                            Basic-portfolio layout ONLY HTML and CSS
+                          </div>
+                        </li>
+                      </ul>
+          </p>
         </div>
       </div>
-      <footer class="footer">
-        <div class="inner">
-          <div class="footer-box heading-font">copyrights ©</div>
-        </div>
-      </footer>
     </div>
+
+    <nav
+      class="navbar navbar-expand navbar-dark bg-dark fixed-bottom justify-content-center justify-content-sm-start flex-wrap"
+    >
+      <div class="navbar-brand mx-auto">GitHub</div>
+    </nav>
   </body>
 </html>
