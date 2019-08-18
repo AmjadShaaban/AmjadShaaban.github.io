@@ -2,9 +2,7 @@
   margin-top: 5.25em;
   margin-bottom: 84px;
 }
-img {
-  margin: 0em 1em 0.5em 0em;
-}
+
 @media (max-width: 575.98px) {
   .navbar-brand {
     width: 100%;
